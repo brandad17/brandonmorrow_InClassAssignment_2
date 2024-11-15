@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Brandon's Fun Facts</title>
-    <link rel="stylesheet" href="./css/stylesheet.css">
-    <script rel="javascript" href="./javascript/script.js" defer></script>
+    <title>Test</title>
+    <link rel="stylesheet" href="/css/stylesheet.css">
+    <script rel="javascript" src="/javascript/script.js" defer></script>
   </head>
 
   <body>
@@ -16,44 +16,51 @@
             <p>Click on the buttons below to reveal and learn the CSS technology features of the corresponding letters</p>
         </div>
 
-        <div class="allHidden">
-            <div class="hiddenImg disappear img1">
-                <div>
-                    <img src="/assets/img/css-letter-a.png" alt="first hidden pic">
+        <div class="button-container">
+            <!-- Section for A -->
+            <div class="letter-section">
+                <div class="hiddenImg disappear" id="img1">
+                    <div>
+                        <img src="/assets/img/css-letter-a.png" alt="first hidden pic">
+                    </div>
+                    <div class="Hide">
+                        <button id="hide1">Hide Result</button>
+                    </div>
                 </div>
-                <div class="Hide">
-                    <button class="hide1">Hide Result</button>
-                </div>
+                <button class="box" id="btnA">
+                    <p>A</p>
+                </button>
             </div>
 
-            <div class="hiddenImg disappear img2">
-                <div>
-                    <img src="/assets/img/css-letter-b.png" alt="first hidden pic">
+            <!-- Section for B -->
+            <div class="letter-section">
+                <div class="hiddenImg disappear" id="img2">
+                    <div>
+                        <img src="/assets/img/css-letter-b.png" alt="second hidden pic">
+                    </div>
+                    <div class="Hide">
+                        <button id="hide2">Hide Result</button>
+                    </div>
                 </div>
-                <div class="Hide">
-                    <button class="hide2">Hide Result</button>
-                </div>
+                <button class="box" id="btnB">
+                    <p>B</p>
+                </button>
             </div>
 
-            <div class="hiddenImg disappear img3">
-                <div>
-                    <img src="/assets/img/css-letter-c.png" alt="first hidden pic">
+            <!-- Section for C -->
+            <div class="letter-section">
+                <div class="hiddenImg disappear" id="img3">
+                    <div>
+                        <img src="/assets/img/css-letter-c.png" alt="third hidden pic">
+                    </div>
+                    <div class="Hide">
+                        <button id="hide3">Hide Result</button>
+                    </div>
                 </div>
-                <div class="Hide">
-                    <button class="hide3">Hide Result</button>
-                </div>
+                <button class="box" id="btnC">
+                    <p>C</p>
+                </button>
             </div>
-        </div>
-
-        <div class="bottom">
-            <button class="box btnA">
-                <p>A</p>
-            </button>
-            <button class="box btnB">
-                <p>B</p>
-            </button>
-            <button class="box btnC">
-                <p>C</p>
-            </button>
         </div>
   </body>
+</html>
