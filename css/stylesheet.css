@@ -1,0 +1,61 @@
+* {
+ /* supress browser defaults and select alternate box model*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif, Tahoma;
+}
+
+body {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background-color: #ffffff;
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      align-items: center;
+}
+
+.welcome {
+    display: flex;
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid orange;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+}
+
+.clickon {
+    display: flex;
+    padding: 20px;
+    border: 1px solid orange;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+}
+
+.clickon p {
+    text-align: center;
+}
+
+.bottom {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 100px;
+    margin: 5px;
+    border: 1px solid orange;
+    border-radius: 5px;
+}
