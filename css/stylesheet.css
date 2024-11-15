@@ -17,6 +17,16 @@ body {
       align-items: center;
 }
 
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+}
+
 .welcome {
     display: flex;
     padding: 20px;
@@ -59,7 +69,24 @@ img {
 }
 
 .hiddenImg {
-    height: 10px;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 1rem;
+    z-index: 1;
+}
+
+.letter-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    min-width: 200px;
 }
 
 .bottom {
